@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Si usas este material, cítalo así. Autoría: Lázaro López Paz, El Prat de Llobregat, Barcelona, España, con asistencia de IA. Elaborado con asistencia de inteligencia artificial (herramientas de IA generativa; p. ej. Grok/xAI). La IA no es autora. Autor responsable: Lázaro López Paz."
+title: "C-VIB-001: Análisis computacional de vibraciones, modos y fonones 1D — paquete de reproducibilidad"
+version: "1.0.1"
+date-released: "2026-10-18"
+authors:
+  - family-names: "López Paz"
+    given-names: "Lázaro"
+    affiliation: "El Prat de Llobregat, Barcelona, España"
+    orcid: "https://orcid.org/0000-0001-8601-1963"
+license:
+  - MIT
+  - CC-BY-4.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22150377"
+    description: "DOI de concepto Zenodo (todas las versiones). Consta en zenodo_fix/raw/mine.json como conceptdoi del record 22150378. DOI de la versión 1.0.1: PENDIENTE DE VERIFICACIÓN (aún no reservado)."
+keywords: [OMNISCIENCE, vibraciones, fonones, modos normales, reproducibilidad]
+references:
+  - type: article
+    title: "Packaging research artefacts with RO-Crate"
+    authors: [{family-names: "Soiland-Reyes", given-names: "Stian"}]
+    journal: "Data Science"
+    year: 2022
+    doi: "10.3233/DS-210053"

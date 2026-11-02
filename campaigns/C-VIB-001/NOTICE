@@ -1,0 +1,37 @@
+OMNISCIENCE — avisos de terceros y atribuciones
+
+Autor: Lázaro López Paz. Licencia del proyecto: MIT (ver LICENSE).
+
+1) Dependencias de code/ (no se redistribuyen; cada una con su licencia; versiones en code/requirements.txt):
+   - NumPy        — BSD-3-Clause (las ruedas incluyen además componentes 0BSD, MIT, Zlib y CC0-1.0)
+   - SciPy        — BSD-3-Clause — Copyright (c) 2001-2002 Enthought, Inc.; 2003, SciPy Developers
+   - Matplotlib   — Matplotlib License (basada en la licencia PSF)
+   - ReportLab    — BSD (licencia de ReportLab Inc.)
+   - Pillow       — MIT-CMU (HPND)
+   - pypdf        — BSD-3-Clause
+   - pytest       — MIT (solo tests)
+   Herramientas del sistema usadas pero no incluidas:
+   - FFmpeg (animar_modos.py, vía matplotlib) — LGPL-2.1+ o GPL según la compilación
+   - Fuentes DejaVu (crear_informe_pdf.py, generar_dossier_completo.py) — licencia Bitstream Vera / DejaVu (libre)
+
+2) Contenido asistido por IA: code/crear_informe_pdf.py, docs/Analisis_vibraciones_cientificas_Grok.md y
+   docs/OMNISCIENCE_dossier_completo.md declaran en su fila «Atribución»: autor Lázaro López Paz, con asistencia de IA (Grok, xAI) (actualizado 2026-10-19).
+   Ver la nota de autoría en cada archivo. Grok y xAI son marcas de xAI; su mención no implica cesión de derechos ni respaldo.
+
+3) code/omniscience_mv1.py menciona ASE, MACE, Phonopy y VASP/Quantum ESPRESSO como integraciones
+   previstas; las llamadas están comentadas y no se usan (surrogate). VASP es software con licencia comercial.
+
+4) docs/OMNISCIENCE_Architecture_OCR.md procede de una presentación cuyas diapositivas llevaban la marca de
+   agua «Gemini Notebook» (herramienta de terceros); se retiró la marca en la limpieza del OCR.
+
+5) Terceros mencionados en los documentos de Drive extraídos (drive/*.md, revisión 2026-10-21).
+   El escaneo automático license_check detecta 3 nombres (Google, Gemini, Grok); la búsqueda manual añade el resto:
+   - Google NotebookLM / Google Gemini (Google LLC): herramienta que generó las diapositivas (Architecture, Discovery Engine).
+     Términos de uso: PENDIENTE DE VERIFICACIÓN.
+   - Grok (xAI): asistencia de IA citada en OMNISCIENCE_PUBLICACION_v1.0.0.md; no es coautor.
+   - RO-Crate (Research Object Crate, comunidad ResearchObject.org): formato de empaquetado citado.
+   - PROV-O (W3C PROV Ontology, Recomendación W3C 2013): modelo de procedencia citado.
+   - Unreal Engine: marca de Epic Games (Discovery Engine, "UE6" = lectura OCR; versión PENDIENTE DE VERIFICACIÓN).
+   - DOI 10.1038/s41467-024-44773-7 (Nature Communications) y arXiv:1908.06841: citados en los documentos;
+     correspondencia título/autores PENDIENTE DE VERIFICACIÓN.
+   Ninguno de estos terceros es coautor ni respalda el proyecto.
